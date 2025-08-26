@@ -3,6 +3,7 @@
 env/
 venv/
 ENV/
+__pypackages__/
 
 # Variables de entorno y secretos
 .env
@@ -35,11 +36,12 @@ htmlcov/
 .tox/
 .nox/
 .pytest_cache/
-.cache/
 
-# Dependencias de entornos y gestores
+# Dependencias de gestores
 pip-log.txt
 pip-delete-this-directory.txt
+Pipfile.lock
+poetry.lock
 
 # IDEs y editores
 .vscode/
@@ -50,6 +52,7 @@ pip-delete-this-directory.txt
 
 # Jupyter
 .ipynb_checkpoints
+*.ipynb
 
 # Bases de datos y datos locales
 *.sqlite3
@@ -77,96 +80,10 @@ docs/_build/
 .mypy_cache/
 .ruff_cache/
 .pyre/
+.pyright/
 
-# Sistemas operativos
-.DS_Store
-Thumbs.db
-
-# Archivos temporales y varios
-coverage/
-*.coverage.*
-*.cache
-```// filepath: /home/francisco/Proyectos/web-scraping/.gitignore
-
-# Entornos virtuales
-.venv/
-env/
-venv/
-ENV/
-
-# Variables de entorno y secretos
-.env
-.env.*
-secrets.*
-credentials.json
-*.key
-*.pem
-
-# Cachés y bytecode de Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.pyo
-*.pyd
-
-# Paquetes y distribuciones
-build/
-dist/
-*.egg-info/
-*.egg
-*.whl
-pip-wheel-metadata/
-
-# Tests y cobertura
-.coverage
-coverage.xml
-*.cover
-htmlcov/
-.tox/
-.nox/
-.pytest_cache/
-.cache/
-
-# Dependencias de entornos y gestores
-pip-log.txt
-pip-delete-this-directory.txt
-
-# IDEs y editores
-.vscode/
-.idea/
-*.iml
-*.sublime-*
-*.swp
-
-# Jupyter
-.ipynb_checkpoints
-
-# Bases de datos y datos locales
-*.sqlite3
-*.db
-*.sqlite
-data/
-tmp/
-*.bak
-
-# Logs
-*.log
-logs/
-npm-debug.log*
-
-# Drivers / WebDriver
-chromedriver*
-geckodriver*
-webdriver/
-drivers/
-
-# Documentación generada
-docs/_build/
-
-# Cachés de linters / type checkers
-.mypy_cache/
-.ruff_cache/
-.pyre/
+# Entorno/versión de Python
+.python-version
 
 # Sistemas operativos
 .DS_Store
