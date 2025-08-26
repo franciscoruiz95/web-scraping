@@ -39,18 +39,18 @@ cd web-scraping
 Es una buena práctica crear un entorno virtual para aislar las dependencias del proyecto.
 
 ```bash
-python -m venv venv
+python -m venv .venv
 ```
 
 **Activa el entorno virtual:**
 
   * **En Windows:**
     ```bash
-    .\venv\Scripts\activate
+    .\.venv\Scripts\activate
     ```
   * **En macOS/Linux:**
     ```bash
-    source venv/bin/activate
+    source .venv/bin/activate
     ```
 
 #### 3\. Instalar los requerimientos
