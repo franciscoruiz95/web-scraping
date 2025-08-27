@@ -51,9 +51,9 @@ poetry.lock
 *.sublime-*
 *.swp
 
-# Jupyter
-.ipynb_checkpoints
-*.ipynb
+# # Jupyter
+# .ipynb_checkpoints
+# *.ipynb
 
 # Bases de datos y datos locales
 *.sqlite3
