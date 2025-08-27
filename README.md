@@ -71,4 +71,4 @@ Una vez que tengas el entorno configurado, puedes ejecutar los *scripts* de scra
 
 ### Contribuciones y Contacto 🤝
 
-Siéntete libre de contribuir a este proyecto. Para cualquier pregunta o sugerencia, abre un *issue* o contáctame en javierrupe19@gmail.ocm.
+Siéntete libre de contribuir a este proyecto. Para cualquier pregunta o sugerencia, abre un *issue* o contáctame en javierrupe19@gmail.com
