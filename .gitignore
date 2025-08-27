@@ -3,6 +3,7 @@
 env/
 venv/
 ENV/
+entorno-estudiante/
 __pypackages__/
 
 # Variables de entorno y secretos
